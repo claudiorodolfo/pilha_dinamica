@@ -23,7 +23,7 @@ public class PilhaDinamica implements Empilhavel {
 			ponteiroTopo = noTemporario;
 			quantidade++;
 		} else {
-			System.out.println("Pilha Cheia!");
+			System.err.println("Pilha Cheia!");
 		}
 	}
 	
